@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\winformsapp1\\ucwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\ucwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\winformsapp1\\ucwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\ucwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\winformsapp1\\ucwarehouse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\ucwarehouse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\inventorymanagementsystem\\entities\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\entities\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A7C199-9CE4-4785-B907-23A4B112AE92}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\inventorymanagementsystem\\services\\permissionsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\services\\permissionsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\inventorymanagementsystem\\entities\\supplypermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\entities\\supplypermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\inventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\inventorymanagementsystem\\services\\crudservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\services\\crudservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\inventorymanagementsystem\\services\\reportservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\services\\reportservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\rawan\\source\\repos\\inventorymanagementsystem\\inventorymanagementsystem\\entities\\whproductsbysupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B5FE55-BEBA-4EBB-8F42-E57714A693F6}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\entities\\whproductsbysupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 280,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UcWarehouse.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\UcWarehouse.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\UcWarehouse.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\UcWarehouse.cs [Design]*",
+              "RelativeToolTip": "WinFormsApp1\\UcWarehouse.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:38:05.954Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UcWarehouse.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\UcWarehouse.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\UcWarehouse.Designer.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\UcWarehouse.Designer.cs*",
+              "RelativeToolTip": "WinFormsApp1\\UcWarehouse.Designer.cs*",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAuwNwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:36:30.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UcWarehouse.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\UcWarehouse.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\UcWarehouse.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\UcWarehouse.cs*",
+              "RelativeToolTip": "WinFormsApp1\\UcWarehouse.cs*",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAiwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:41:44.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:44:25.466Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwCkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:16:50.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Entities\\Warehouse.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Entities\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Entities\\Warehouse.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Entities\\Warehouse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:25:15.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:43:31.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SupplyPermission.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Entities\\SupplyPermission.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Entities\\SupplyPermission.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Entities\\SupplyPermission.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Entities\\SupplyPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:45:44.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PermissionsServices.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Services\\PermissionsServices.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Services\\PermissionsServices.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Services\\PermissionsServices.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Services\\PermissionsServices.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T05:13:30.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrudServices.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Services\\CrudServices.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Services\\CrudServices.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Services\\CrudServices.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Services\\CrudServices.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:29:51.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Program.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:52:58.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportServices.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Services\\ReportServices.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Services\\ReportServices.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Services\\ReportServices.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Services\\ReportServices.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAkwM8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:30:14.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WhProductsBySupplier.cs",
+              "DocumentMoniker": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Entities\\WhProductsBySupplier.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Entities\\WhProductsBySupplier.cs",
+              "ToolTip": "C:\\Users\\Rawan\\source\\repos\\InventoryManagementSystem\\InventoryManagementSystem\\Entities\\WhProductsBySupplier.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Entities\\WhProductsBySupplier.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:35:29.987Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 101,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
