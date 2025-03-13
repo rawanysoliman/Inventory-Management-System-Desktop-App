@@ -101,7 +101,7 @@ namespace InventoryManagementSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductsId"));
 
-                    b.Property<int?>("CategoryId")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<double>("Price")
@@ -425,7 +425,8 @@ namespace InventoryManagementSystem.Migrations
                     b.HasOne("InventoryManagementSystem.Entities.Category", "category")
                         .WithMany("products")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("category");
                 });

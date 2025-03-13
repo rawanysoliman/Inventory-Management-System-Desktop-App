@@ -26,7 +26,7 @@ namespace InventoryManagementSystem.Entities
         public virtual ICollection<ProductMeasuringUnit> ProductMeasuringUnits { get; set; }
 
 
-        public int? CategoryId { get; set; }  // FK
+        public int CategoryId { get; set; }  // FK
         public Category category { get; set; }
 
     }

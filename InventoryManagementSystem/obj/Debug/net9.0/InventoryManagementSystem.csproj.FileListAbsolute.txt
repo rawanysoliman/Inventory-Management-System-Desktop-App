@@ -146,3 +146,4 @@ C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.pdb
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.genruntimeconfig.cache
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\ref\InventoryManagementSystem.dll
+C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.sourcelink.json

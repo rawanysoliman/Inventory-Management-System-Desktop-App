@@ -113,23 +113,20 @@ namespace WinFormsApp1
 
         }
 
-
-
-
-        private void txtWhName_MouseEnter(object sender, EventArgs e)
+        private void txtWhName_Enter(object sender, EventArgs e)
         {
-            txtWhName.RT_TB.Clear();
+            txtWhName.RT_TB.Text = string.Empty;
 
         }
 
-        private void txtWhLoc_MouseEnter(object sender, EventArgs e)
+        private void txtWhLoc_Enter(object sender, EventArgs e)
         {
-            txtWhLoc.RT_TB.Clear();
+            txtWhLoc.RT_TB.Text = string.Empty;
         }
 
-        private void txtManger_MouseEnter(object sender, EventArgs e)
+        private void txtManger_Enter(object sender, EventArgs e)
         {
-             txtManger.RT_TB.Clear();
+            txtManger.RT_TB.Text = string.Empty;
         }
     }
 }

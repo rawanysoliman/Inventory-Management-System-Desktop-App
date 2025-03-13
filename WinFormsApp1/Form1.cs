@@ -1,4 +1,5 @@
 using InventoryManagementSystem.context;
+using InventoryManagementSystem.Entities;
 using WinFormsApp1;
 
 
@@ -12,10 +13,7 @@ namespace WinFormsApp1
             myContext context = new myContext();
         }
 
-        private void headerLabel1_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void btnSupplier_Click(object sender, EventArgs e)
         {
@@ -40,6 +38,11 @@ namespace WinFormsApp1
         private void Form1_Resize(object sender, EventArgs e)
         {
             this.Invalidate();
+        }
+
+        private void btnSplyperm_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new UC_SupplyPerm());
         }
     }
 }

@@ -88,7 +88,7 @@ namespace InventoryManagementSystem
                             WarehouseId = whId,
                             ProductId = productId,
                             SupplierId = spId,
-                            CurrentStock = productsCount,
+                            CurrentStock = quantity,
                             ExpireDate = prdctDate.AddDays(expireDuration),
                             ProductionDate = prdctDate
                         };
