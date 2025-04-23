@@ -10,6 +10,8 @@ using Microsoft.Identity.Client;
 
 namespace InventoryManagementSystem.Services
 {
+
+
     public class ReportServices
     {
         //Generates a report for a specific warehouse, optionally filtered by a time period.
@@ -50,7 +52,7 @@ namespace InventoryManagementSystem.Services
                     Console.WriteLine($"- Permission ID: {sp.SupplyId}, Date: {sp.supplyDate}, Supplier ID: {sp.supplierId}");
                 }
 
-                Console.WriteLine("------"); 
+                Console.WriteLine("------");
 
                 Console.WriteLine("Release Permissions:");
                 foreach (var rp in releasePermissions)
@@ -72,6 +74,10 @@ namespace InventoryManagementSystem.Services
             }
 
         }
+
+
+
+
 
 
 

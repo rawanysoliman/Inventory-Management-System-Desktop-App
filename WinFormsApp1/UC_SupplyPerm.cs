@@ -118,7 +118,7 @@ namespace WinFormsApp1
             myContext context = new myContext();
             int whId = (int)cbWhId.SelectedValue;
             int spId = (int)cbSupplierId.SelectedValue;
-            DateTime splyDate = dtSplyDate.Value;
+            DateTime splyDate = dtRlsDate.Value;
 
             AddSupplyPermission(context, whId, spId, splyDate, out currentSupplyPermission);
         }
@@ -263,7 +263,7 @@ namespace WinFormsApp1
                 {
                     cbWhId.SelectedValue = currentSupplyPermission.WarehouseId;
                     cbSupplierId.SelectedValue = currentSupplyPermission.supplierId;
-                    dtSplyDate.Value = currentSupplyPermission.supplyDate;
+                    dtRlsDate.Value = currentSupplyPermission.supplyDate;
                 }
             }
         }
@@ -310,7 +310,7 @@ namespace WinFormsApp1
             {
                 int whId = (int)cbWhId.SelectedValue;
                 int spId = (int)cbSupplierId.SelectedValue;
-                DateTime splyDate = dtSplyDate.Value;
+                DateTime splyDate = dtRlsDate.Value;
 
                 EditSupplyPermission(context, currentSupplyPermission.SupplyId, whId, spId, splyDate);
             }

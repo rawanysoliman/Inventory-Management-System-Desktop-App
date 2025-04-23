@@ -35,7 +35,7 @@
             cbWhId = new ReaLTaiizor.Controls.ForeverComboBox();
             dgvSplyPerm = new ReaLTaiizor.Controls.PoisonDataGridView();
             cbSupplierId = new ReaLTaiizor.Controls.ForeverComboBox();
-            dtSplyDate = new ReaLTaiizor.Controls.PoisonDateTime();
+            dtRlsDate = new ReaLTaiizor.Controls.PoisonDateTime();
             btnAddSplyPerm = new ReaLTaiizor.Controls.NightButton();
             btnUpdate = new ReaLTaiizor.Controls.NightButton();
             txtExpDuration = new ReaLTaiizor.Controls.SmallTextBox();
@@ -100,7 +100,7 @@
             dgvSplyPerm.EnableHeadersVisualStyles = false;
             dgvSplyPerm.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Pixel);
             dgvSplyPerm.GridColor = Color.FromArgb(255, 255, 255);
-            dgvSplyPerm.Location = new Point(387, 13);
+            dgvSplyPerm.Location = new Point(413, 13);
             dgvSplyPerm.Name = "dgvSplyPerm";
             dgvSplyPerm.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -120,7 +120,7 @@
             dataGridViewCellStyle4.SelectionForeColor = Color.Black;
             dgvSplyPerm.RowsDefaultCellStyle = dataGridViewCellStyle4;
             dgvSplyPerm.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvSplyPerm.Size = new Size(586, 294);
+            dgvSplyPerm.Size = new Size(549, 294);
             dgvSplyPerm.TabIndex = 15;
             dgvSplyPerm.SelectionChanged += dgvSplyPerm_SelectionChanged_1;
             // 
@@ -142,16 +142,16 @@
             cbSupplierId.Size = new Size(144, 24);
             cbSupplierId.TabIndex = 16;
             // 
-            // dtSplyDate
+            // dtRlsDate
             // 
-            dtSplyDate.CalendarMonthBackground = Color.WhiteSmoke;
-            dtSplyDate.CalendarTitleBackColor = SystemColors.ControlDarkDark;
-            dtSplyDate.Location = new Point(187, 13);
-            dtSplyDate.MinimumSize = new Size(0, 30);
-            dtSplyDate.Name = "dtSplyDate";
-            dtSplyDate.Size = new Size(142, 30);
-            dtSplyDate.TabIndex = 20;
-            dtSplyDate.UseStyleColors = true;
+            dtRlsDate.CalendarMonthBackground = Color.WhiteSmoke;
+            dtRlsDate.CalendarTitleBackColor = SystemColors.ControlDarkDark;
+            dtRlsDate.Location = new Point(187, 13);
+            dtRlsDate.MinimumSize = new Size(0, 30);
+            dtRlsDate.Name = "dtRlsDate";
+            dtRlsDate.Size = new Size(142, 30);
+            dtRlsDate.TabIndex = 20;
+            dtRlsDate.UseStyleColors = true;
             // 
             // btnAddSplyPerm
             // 
@@ -162,7 +162,7 @@
             btnAddSplyPerm.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
             btnAddSplyPerm.HoverForeColor = Color.White;
             btnAddSplyPerm.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            btnAddSplyPerm.Location = new Point(13, 113);
+            btnAddSplyPerm.Location = new Point(13, 115);
             btnAddSplyPerm.MinimumSize = new Size(144, 47);
             btnAddSplyPerm.Name = "btnAddSplyPerm";
             btnAddSplyPerm.NormalBackColor = Color.DarkRed;
@@ -358,7 +358,7 @@
             btnUpdateStock.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
             btnUpdateStock.HoverForeColor = Color.White;
             btnUpdateStock.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            btnUpdateStock.Location = new Point(387, 315);
+            btnUpdateStock.Location = new Point(413, 315);
             btnUpdateStock.MinimumSize = new Size(144, 47);
             btnUpdateStock.Name = "btnUpdateStock";
             btnUpdateStock.NormalBackColor = Color.DarkRed;
@@ -425,7 +425,7 @@
             Controls.Add(txtExpDuration);
             Controls.Add(btnUpdate);
             Controls.Add(btnAddSplyPerm);
-            Controls.Add(dtSplyDate);
+            Controls.Add(dtRlsDate);
             Controls.Add(cbSupplierId);
             Controls.Add(dgvSplyPerm);
             Controls.Add(cbWhId);
@@ -440,7 +440,7 @@
         private ReaLTaiizor.Controls.ForeverComboBox cbWhId;
         private ReaLTaiizor.Controls.PoisonDataGridView dgvSplyPerm;
         private ReaLTaiizor.Controls.ForeverComboBox cbSupplierId;
-        private ReaLTaiizor.Controls.PoisonDateTime dtSplyDate;
+        private ReaLTaiizor.Controls.PoisonDateTime dtRlsDate;
         private ReaLTaiizor.Controls.NightButton btnAddSplyPerm;
         private ReaLTaiizor.Controls.NightButton btnUpdate;
         private ReaLTaiizor.Controls.SmallTextBox txtExpDuration;

@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pnlMenu = new Panel();
-            foreverComboBox1 = new ReaLTaiizor.Controls.ForeverComboBox();
+            hopeButton1 = new ReaLTaiizor.Controls.HopeButton();
+            cbReports = new ReaLTaiizor.Controls.ForeverComboBox();
             label2 = new Label();
             foxBigLabel2 = new ReaLTaiizor.Controls.FoxBigLabel();
             foxBigLabel1 = new ReaLTaiizor.Controls.FoxBigLabel();
@@ -51,7 +52,8 @@
             // pnlMenu
             // 
             pnlMenu.BackColor = Color.DarkRed;
-            pnlMenu.Controls.Add(foreverComboBox1);
+            pnlMenu.Controls.Add(hopeButton1);
+            pnlMenu.Controls.Add(cbReports);
             pnlMenu.Controls.Add(label2);
             pnlMenu.Controls.Add(foxBigLabel2);
             pnlMenu.Controls.Add(foxBigLabel1);
@@ -66,27 +68,49 @@
             pnlMenu.ForeColor = Color.White;
             pnlMenu.Location = new Point(0, 0);
             pnlMenu.Name = "pnlMenu";
-            pnlMenu.Size = new Size(994, 184);
+            pnlMenu.Size = new Size(994, 203);
             pnlMenu.TabIndex = 0;
             // 
-            // foreverComboBox1
+            // hopeButton1
             // 
-            foreverComboBox1.BackColor = SystemColors.ActiveCaptionText;
-            foreverComboBox1.BaseColor = Color.Silver;
-            foreverComboBox1.BGColor = Color.White;
-            foreverComboBox1.DrawMode = DrawMode.OwnerDrawFixed;
-            foreverComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            foreverComboBox1.Font = new Font("Stencil", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            foreverComboBox1.ForeColor = Color.White;
-            foreverComboBox1.FormattingEnabled = true;
-            foreverComboBox1.HoverColor = Color.Gainsboro;
-            foreverComboBox1.HoverFontColor = Color.FromArgb(64, 0, 0);
-            foreverComboBox1.ItemHeight = 18;
-            foreverComboBox1.Items.AddRange(new object[] { "Warehouse Report", "Product Report", "Product Movement Report", "Expired Products Report", "Expiring Soon Report" });
-            foreverComboBox1.Location = new Point(356, 138);
-            foreverComboBox1.Name = "foreverComboBox1";
-            foreverComboBox1.Size = new Size(614, 24);
-            foreverComboBox1.TabIndex = 12;
+            hopeButton1.BackColor = Color.White;
+            hopeButton1.BorderColor = Color.White;
+            hopeButton1.ButtonType = ReaLTaiizor.Util.HopeButtonType.Primary;
+            hopeButton1.DangerColor = Color.Gray;
+            hopeButton1.DefaultColor = Color.FromArgb(255, 255, 255);
+            hopeButton1.Font = new Font("Stencil", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            hopeButton1.HoverTextColor = Color.FromArgb(48, 49, 51);
+            hopeButton1.InfoColor = Color.FromArgb(144, 147, 153);
+            hopeButton1.Location = new Point(596, 80);
+            hopeButton1.Name = "hopeButton1";
+            hopeButton1.PrimaryColor = Color.White;
+            hopeButton1.Size = new Size(118, 50);
+            hopeButton1.SuccessColor = Color.FromArgb(103, 194, 58);
+            hopeButton1.TabIndex = 13;
+            hopeButton1.Text = "Transfer Permission";
+            hopeButton1.TextColor = Color.DarkRed;
+            hopeButton1.WarningColor = Color.FromArgb(230, 162, 60);
+            hopeButton1.Click += hopeButton1_Click;
+            // 
+            // cbReports
+            // 
+            cbReports.BackColor = SystemColors.ActiveCaptionText;
+            cbReports.BaseColor = Color.Silver;
+            cbReports.BGColor = Color.White;
+            cbReports.DrawMode = DrawMode.OwnerDrawFixed;
+            cbReports.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbReports.Font = new Font("Stencil", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cbReports.ForeColor = Color.Black;
+            cbReports.FormattingEnabled = true;
+            cbReports.HoverColor = Color.DimGray;
+            cbReports.HoverFontColor = Color.Black;
+            cbReports.ItemHeight = 18;
+            cbReports.Items.AddRange(new object[] { "Warehouse Report", "Product Report", "Product Movement Report", "Expired Products Report", "Expiring Soon Report" });
+            cbReports.Location = new Point(224, 154);
+            cbReports.Name = "cbReports";
+            cbReports.Size = new Size(614, 24);
+            cbReports.TabIndex = 12;
+            cbReports.SelectedValueChanged += cbReports_SelectedValueChanged;
             // 
             // label2
             // 
@@ -104,7 +128,7 @@
             foxBigLabel2.ForeColor = Color.White;
             foxBigLabel2.Line = ReaLTaiizor.Controls.FoxBigLabel.Direction.Bottom;
             foxBigLabel2.LineColor = Color.Transparent;
-            foxBigLabel2.Location = new Point(237, 148);
+            foxBigLabel2.Location = new Point(119, 166);
             foxBigLabel2.Name = "foxBigLabel2";
             foxBigLabel2.Size = new Size(87, 30);
             foxBigLabel2.TabIndex = 11;
@@ -117,7 +141,7 @@
             foxBigLabel1.ForeColor = Color.White;
             foxBigLabel1.Line = ReaLTaiizor.Controls.FoxBigLabel.Direction.Bottom;
             foxBigLabel1.LineColor = Color.Transparent;
-            foxBigLabel1.Location = new Point(232, 126);
+            foxBigLabel1.Location = new Point(112, 148);
             foxBigLabel1.Name = "foxBigLabel1";
             foxBigLabel1.Size = new Size(107, 36);
             foxBigLabel1.TabIndex = 10;
@@ -133,7 +157,7 @@
             btnSplyperm.Font = new Font("Stencil", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSplyperm.HoverTextColor = Color.FromArgb(48, 49, 51);
             btnSplyperm.InfoColor = Color.FromArgb(144, 147, 153);
-            btnSplyperm.Location = new Point(728, 60);
+            btnSplyperm.Location = new Point(720, 80);
             btnSplyperm.Name = "btnSplyperm";
             btnSplyperm.PrimaryColor = Color.White;
             btnSplyperm.Size = new Size(118, 50);
@@ -154,7 +178,7 @@
             btnRlsperm.Font = new Font("Stencil", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnRlsperm.HoverTextColor = Color.FromArgb(48, 49, 51);
             btnRlsperm.InfoColor = Color.FromArgb(144, 147, 153);
-            btnRlsperm.Location = new Point(852, 60);
+            btnRlsperm.Location = new Point(844, 80);
             btnRlsperm.Name = "btnRlsperm";
             btnRlsperm.PrimaryColor = Color.White;
             btnRlsperm.Size = new Size(118, 50);
@@ -163,6 +187,7 @@
             btnRlsperm.Text = "Release Permission";
             btnRlsperm.TextColor = Color.DarkRed;
             btnRlsperm.WarningColor = Color.FromArgb(230, 162, 60);
+            btnRlsperm.Click += btnRlsperm_Click;
             // 
             // btnProduct
             // 
@@ -174,7 +199,7 @@
             btnProduct.Font = new Font("Stencil", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnProduct.HoverTextColor = Color.FromArgb(48, 49, 51);
             btnProduct.InfoColor = Color.FromArgb(144, 147, 153);
-            btnProduct.Location = new Point(356, 59);
+            btnProduct.Location = new Point(224, 80);
             btnProduct.Name = "btnProduct";
             btnProduct.PrimaryColor = Color.White;
             btnProduct.Size = new Size(118, 50);
@@ -183,6 +208,7 @@
             btnProduct.Text = "products";
             btnProduct.TextColor = Color.DarkRed;
             btnProduct.WarningColor = Color.FromArgb(230, 162, 60);
+            btnProduct.Click += btnProduct_Click;
             // 
             // btnSupplier
             // 
@@ -194,7 +220,7 @@
             btnSupplier.Font = new Font("Stencil", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSupplier.HoverTextColor = Color.FromArgb(48, 49, 51);
             btnSupplier.InfoColor = Color.FromArgb(144, 147, 153);
-            btnSupplier.Location = new Point(604, 60);
+            btnSupplier.Location = new Point(472, 80);
             btnSupplier.Name = "btnSupplier";
             btnSupplier.PrimaryColor = Color.White;
             btnSupplier.Size = new Size(118, 50);
@@ -215,7 +241,7 @@
             btnCategory.Font = new Font("Stencil", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCategory.HoverTextColor = Color.FromArgb(48, 49, 51);
             btnCategory.InfoColor = Color.FromArgb(144, 147, 153);
-            btnCategory.Location = new Point(480, 60);
+            btnCategory.Location = new Point(348, 80);
             btnCategory.Name = "btnCategory";
             btnCategory.PrimaryColor = Color.White;
             btnCategory.Size = new Size(118, 50);
@@ -224,6 +250,7 @@
             btnCategory.Text = "Categories";
             btnCategory.TextColor = Color.DarkRed;
             btnCategory.WarningColor = Color.FromArgb(230, 162, 60);
+            btnCategory.Click += btnCategory_Click;
             // 
             // btnWh
             // 
@@ -235,7 +262,7 @@
             btnWh.Font = new Font("Stencil", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnWh.HoverTextColor = Color.FromArgb(48, 49, 51);
             btnWh.InfoColor = Color.FromArgb(144, 147, 153);
-            btnWh.Location = new Point(232, 59);
+            btnWh.Location = new Point(100, 80);
             btnWh.Name = "btnWh";
             btnWh.PrimaryColor = Color.White;
             btnWh.Size = new Size(118, 50);
@@ -262,7 +289,7 @@
             // 
             pnlFooter.BackColor = Color.Maroon;
             pnlFooter.Dock = DockStyle.Bottom;
-            pnlFooter.Location = new Point(0, 555);
+            pnlFooter.Location = new Point(0, 574);
             pnlFooter.Name = "pnlFooter";
             pnlFooter.Size = new Size(994, 14);
             pnlFooter.TabIndex = 1;
@@ -275,7 +302,7 @@
             pnlMain.Dock = DockStyle.Fill;
             pnlMain.Font = new Font("Stencil", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
             pnlMain.ForeColor = Color.White;
-            pnlMain.Location = new Point(0, 184);
+            pnlMain.Location = new Point(0, 203);
             pnlMain.Name = "pnlMain";
             pnlMain.Size = new Size(994, 371);
             pnlMain.TabIndex = 2;
@@ -292,7 +319,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(994, 569);
+            ClientSize = new Size(994, 588);
             Controls.Add(pnlMain);
             Controls.Add(pnlFooter);
             Controls.Add(pnlMenu);
@@ -320,8 +347,9 @@
         private ReaLTaiizor.Controls.HopeButton btnCategory;
         private ReaLTaiizor.Controls.FoxBigLabel foxBigLabel1;
         private ReaLTaiizor.Controls.FoxBigLabel foxBigLabel2;
-        private Label label2;
         private Label label1;
-        private ReaLTaiizor.Controls.ForeverComboBox foreverComboBox1;
+        private ReaLTaiizor.Controls.ForeverComboBox cbReports;
+        private Label label2;
+        private ReaLTaiizor.Controls.HopeButton hopeButton1;
     }
 }

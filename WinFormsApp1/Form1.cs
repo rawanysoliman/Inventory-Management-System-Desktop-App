@@ -17,9 +17,8 @@ namespace WinFormsApp1
 
         private void btnSupplier_Click(object sender, EventArgs e)
         {
-
+            LoadUserControl(new UC_Suppliers());
         }
-
 
 
 
@@ -43,6 +42,39 @@ namespace WinFormsApp1
         private void btnSplyperm_Click(object sender, EventArgs e)
         {
             LoadUserControl(new UC_SupplyPerm());
+        }
+
+        private void cbReports_SelectedValueChanged(object sender, EventArgs e)
+        {
+            if (cbReports.SelectedItem.ToString() == "Warehouse Report")
+            {
+                LoadUserControl(new WarehouseReportControl());
+            }
+
+            if (cbReports.SelectedItem.ToString() == "Product Report")
+            {
+                LoadUserControl(new UC_ProductReport());
+            }
+        }
+
+        private void hopeButton1_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new UC_TransferPerm());
+        }
+
+        private void btnRlsperm_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new UC_ReleasePerm());
+        }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new UC_Products());
+        }
+
+        private void btnCategory_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new UC_Categories());
         }
     }
 }

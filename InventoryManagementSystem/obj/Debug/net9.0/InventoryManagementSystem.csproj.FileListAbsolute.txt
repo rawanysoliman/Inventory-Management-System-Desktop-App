@@ -140,10 +140,10 @@ C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.AssemblyInfoInputs.cache
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.AssemblyInfo.cs
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.sourcelink.json
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\Inventor.EBF2E7CF.Up2Date
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.dll
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\refint\InventoryManagementSystem.dll
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.pdb
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.genruntimeconfig.cache
 C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\ref\InventoryManagementSystem.dll
-C:\Users\Rawan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.sourcelink.json

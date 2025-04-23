@@ -105,7 +105,7 @@ namespace WinFormsApp1
             btnAddWh.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
             btnAddWh.HoverForeColor = Color.White;
             btnAddWh.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            btnAddWh.Location = new Point(9, 115);
+            btnAddWh.Location = new Point(188, 171);
             btnAddWh.MinimumSize = new Size(144, 47);
             btnAddWh.Name = "btnAddWh";
             btnAddWh.NormalBackColor = Color.DarkRed;
@@ -128,7 +128,7 @@ namespace WinFormsApp1
             btnUpdateWh.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
             btnUpdateWh.HoverForeColor = Color.White;
             btnUpdateWh.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            btnUpdateWh.Location = new Point(9, 201);
+            btnUpdateWh.Location = new Point(188, 102);
             btnUpdateWh.MinimumSize = new Size(144, 47);
             btnUpdateWh.Name = "btnUpdateWh";
             btnUpdateWh.NormalBackColor = Color.DarkRed;
@@ -151,7 +151,7 @@ namespace WinFormsApp1
             btnDltWh.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
             btnDltWh.HoverForeColor = Color.White;
             btnDltWh.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            btnDltWh.Location = new Point(9, 288);
+            btnDltWh.Location = new Point(188, 241);
             btnDltWh.MinimumSize = new Size(144, 47);
             btnDltWh.Name = "btnDltWh";
             btnDltWh.NormalBackColor = Color.DarkRed;
@@ -172,7 +172,7 @@ namespace WinFormsApp1
             txtWhName.CustomBGColor = Color.White;
             txtWhName.Font = new Font("Tahoma", 11F);
             txtWhName.ForeColor = Color.DarkGray;
-            txtWhName.Location = new Point(179, 121);
+            txtWhName.Location = new Point(15, 128);
             txtWhName.MaxLength = 32767;
             txtWhName.Multiline = false;
             txtWhName.Name = "txtWhName";
@@ -192,7 +192,7 @@ namespace WinFormsApp1
             txtWhLoc.CustomBGColor = Color.White;
             txtWhLoc.Font = new Font("Tahoma", 11F);
             txtWhLoc.ForeColor = Color.DarkGray;
-            txtWhLoc.Location = new Point(179, 210);
+            txtWhLoc.Location = new Point(15, 185);
             txtWhLoc.MaxLength = 32767;
             txtWhLoc.Multiline = false;
             txtWhLoc.Name = "txtWhLoc";
@@ -213,7 +213,7 @@ namespace WinFormsApp1
             txtManger.CustomBGColor = Color.White;
             txtManger.Font = new Font("Tahoma", 11F);
             txtManger.ForeColor = Color.DarkGray;
-            txtManger.Location = new Point(179, 296);
+            txtManger.Location = new Point(15, 241);
             txtManger.MaxLength = 32767;
             txtManger.Multiline = false;
             txtManger.Name = "txtManger";
@@ -242,6 +242,7 @@ namespace WinFormsApp1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightGray;
             BorderStyle = BorderStyle.Fixed3D;
             Controls.Add(bigLabel1);
             Controls.Add(txtManger);

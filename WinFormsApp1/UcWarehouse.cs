@@ -26,8 +26,6 @@ namespace WinFormsApp1
             {
                 dgvWarehouse.DataSource = context.Warehouses.ToList();
                 RemoveUnwantedColumns();
-
-
             }
         }
 

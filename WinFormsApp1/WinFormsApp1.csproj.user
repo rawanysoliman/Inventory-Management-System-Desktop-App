@@ -1,13 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="UC_ExpiredProductsReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_ExpiringSoon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UC_ProductMovementReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_ProductReport.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UcWarehouse.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UC_Categories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_Products.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_ReleasePerm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_Suppliers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UC_SupplyPerm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_TransferPerm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="WarehouseReportControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
