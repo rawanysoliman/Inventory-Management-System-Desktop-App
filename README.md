@@ -118,5 +118,5 @@ InventoryManagementSystem/
 
 ## 📬 Contact
 
-For any inquiries or feedback, feel free to contact me at [your-email@example.com] or visit [LinkedIn Profile].
+For any inquiries or feedback, feel free to contact me at rawanysoliman@gmail.com or visit [LinkedIn Profile].
 
