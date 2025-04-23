@@ -5,11 +5,14 @@ A robust inventory management desktop application developed with **C#**, **Entit
 ---
 
 ## 💽 Application Screenshots
-```md
+### 📸 Dashboard 
 ![Dashboard](Screenshots/dashboard.png)
+### 📸 Add Product 
 ![Add Product](Screenshots/add_product.png)
+### 📸 Generating a Report For WArehouse 
 ![Warehouse Report](Screenshots/warehouse_report.png)
-!Trsnsfer Permission](Screenshots/Trsnsfer_Permission.png)
+### 📸 Adding a Transfer Permission 
+![Trsnsfer Permission](Screenshots/Trsnsfer_Permission.png)
 
 ```
 
