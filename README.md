@@ -17,7 +17,6 @@ A robust inventory management desktop application developed with **C#**, **Entit
 
 ### 🔁 Adding a Transfer Permission
 ![Transfer Permission](Screenshots/Trsnsfer_Permission.png)
-```
 
 ---
 
@@ -61,62 +60,7 @@ Generate insightful reports including:
 - **SQL Server**
 - **LINQ**
 
-
 ---
 
 ## 📁 Project Structure
-
-```
-InventoryManagementSystem/
-│
-├── Entities/               # Database models
-├── Services/               # Business logic and report generation
-├── context/                # EF Core DBContext
-├── UserControls/           # Modular UI components (Reports, Management screens)
-├── Forms/                  # Main application forms
-└── Program.cs              # App entry point
-```
-
----
-
-## ✅ Prerequisites
-
-- Visual Studio 2019/2022
-- .NET Framework 4.7 or higher
-- SQL Server (LocalDB or Full Edition)
-
----
-
-## 🔧 Setup Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/rawanysoliman/inventory-management-system.git
-   ```
-
-2. Open the solution in Visual Studio
-
-3. Update your connection string in `myContext.cs`
-
-4. Apply Migrations:
-   ```
-   Update-Database
-   ```
-
-5. Run the application
-
----
-
-## ✨ Future Enhancements
-
-- Export reports to PDF/Excel
-- Add user authentication with roles
-- Enable cloud database support
-- Implement unit testing
-
----
-
-## 📬 Contact
-
-For any inquiries or feedback, feel free to contact me at rawanysoliman@gmail.com or visit [LinkedIn Profile].
 
