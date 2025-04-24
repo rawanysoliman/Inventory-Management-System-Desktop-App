@@ -138,6 +138,8 @@ The application features a user-friendly interface with the following modules:
 ---
 
 ## Database Schema
+![Database Schema](Screenshots/DatabaseSchema.png)
+
 
 The database schema is managed using Entity Framework Core and includes the following key entities:
 
